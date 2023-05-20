@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header {
+  background-color: #fafafa;
+}
+
+@layer utilities {
+  .h-chatList {
+    height: 78vh;
+  }
+}
+
+.max-message-width {
+  max-width: 60%;
+}
+
+.min-message-width {
+  min-width: 30%;
+}
